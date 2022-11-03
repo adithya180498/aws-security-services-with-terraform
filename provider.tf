@@ -26,7 +26,8 @@ terraform {
       encrypt = true
       bucket = "samp"
       dynamodb_table = "samp"
-      key = "path/path/terraform.tfstate"
+      access_key = "AKIAYEDPNDCGNIJU4Q4U"
+      secret_key = "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"
       region = "ap-south-1"
       
   }
