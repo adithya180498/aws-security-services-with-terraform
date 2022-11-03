@@ -17,7 +17,7 @@
 
 ## Specifies the Region your Terraform Provider will server
 provider "aws" {
-  region = "us-south-1"
+  region = "us-east-1"
 }
 ## Specifies the S3 Bucket and DynamoDB table used for the durable backend and state locking
 
