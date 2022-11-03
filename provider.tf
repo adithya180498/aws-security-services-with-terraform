@@ -27,6 +27,7 @@ terraform {
       bucket = "samp"
       dynamodb_table = "samp"
       key = "path/path/terraform.tfstate"
+      region = "ap-south-1"
       
   }
 }
