@@ -25,7 +25,7 @@ terraform {
     backend "s3" {
       encrypt = true
       bucket = "samp"
-      dynamodb_table = "my_dynamo_table_name"
+      dynamodb_table = "samp"
       key = "path/path/terraform.tfstate"
       region = "us-east-1"
   }
