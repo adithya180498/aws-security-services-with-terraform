@@ -17,7 +17,7 @@
 
 ## Specifies the Region your Terraform Provider will server
 provider "aws" {
-  region = "us-east-1"
+  region = "us-south-1"
 }
 ## Specifies the S3 Bucket and DynamoDB table used for the durable backend and state locking
 
@@ -27,6 +27,6 @@ terraform {
       bucket = "samp"
       dynamodb_table = "samp"
       key = "path/path/terraform.tfstate"
-      region = "us-east-1"
+      region = "us-south-1"
   }
 }
